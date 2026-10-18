@@ -1,0 +1,12 @@
+﻿DisplayName,InternalName,Type,Required,Choices,DefaultValue,AddToDefaultView,LookupList,LookupField
+申請番号,RequestNo,Text,1,,,1,,
+申請内容,RequestBody,Note,0,,,0,,
+金額,Amount,Currency,0,,,1,,
+申請日,RequestDate,DateTime,1,,[today],1,,
+ステータス,Status,Choice,1,申請中;承認待ち;承認済み;却下,申請中,1,,
+対応区分,Category,MultiChoice,0,総務;経理;人事;情報システム,,0,,
+承認者,Approver,User,0,,,1,,
+関係者,Stakeholders,UserMulti,0,,,0,,
+参考URL,ReferenceUrl,URL,0,,,0,,
+緊急,IsUrgent,Boolean,0,,0,1,,
+部署,Department,Lookup,0,,,1,部署マスタ,Title

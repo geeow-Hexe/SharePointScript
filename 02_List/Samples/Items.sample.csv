@@ -1,0 +1,3 @@
+﻿Title,RequestNo,RequestBody,Amount,RequestDate,Status,Category,Approver,IsUrgent
+備品購入申請,R-0001,ノートPC 2台,300000,2026/04/01,申請中,総務;情報システム,taro@contoso.com,0
+出張申請,R-0002,大阪出張 4/10-4/11,45000,2026/04/02,承認待ち,経理,hanako@contoso.com,1

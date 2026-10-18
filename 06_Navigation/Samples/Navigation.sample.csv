@@ -1,0 +1,7 @@
+﻿Title,Url,Parent,External
+ホーム,/sites/sample/SitePages/Home.aspx,,0
+申請,/sites/sample/Lists/Requests,,0
+備品購入申請,/sites/sample/Lists/Requests/NewForm.aspx,申請,0
+申請一覧,/sites/sample/Lists/Requests,申請,0
+ドキュメント,/sites/sample/Shared Documents,,0
+社内ポータル,https://intranet.contoso.com,,1
